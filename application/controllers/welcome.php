@@ -13,8 +13,8 @@ class Welcome extends CI_Controller
     
     function index()
     {
-		$this->theme->area('contents/welcome', NULL, 'contents');
+	$this->theme->area('contents/welcome', NULL, 'contents');
 		
-		$this->load->widget('default_theme_widget', TRUE);
+	$this->load->widget('default_theme_widget', TRUE);
     }
 }
